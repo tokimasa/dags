@@ -7,8 +7,8 @@ def db_connect():
 	try:
 		# Connect MySQL/MariaDB database
 		connection = mysql.connector.connect(
-			# host='localhost',
-			host='192.168.50.158',
+			host='172.20.10.4',
+			# host='192.168.50.158',
 			database='demo',
 			user='root',
 			password='0000')
